@@ -7,7 +7,9 @@
 
 /* Body styles */
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Courier New', monospace;
+  font-size: 16px;
+  line-height: 1.5;
   background-color: #1f1f1f;
   color: #fff;
 }
@@ -25,10 +27,18 @@ nav {
   align-items: center;
 }
 
-nav a {
+.nav-left h1 {
+  font-size: 24px;
+}
+
+.nav-left p {
+  font-size: 16px;
+}
+
+.nav-right a {
   color: #fff;
   text-decoration: none;
-  margin-right: 20px;
+  margin-left: 10px;
 }
 
 /* Main styles */
@@ -42,13 +52,8 @@ main {
   margin-bottom: 40px;
 }
 
-.hero-content h1 {
-  font-size: 48px;
-  margin-bottom: 20px;
-}
-
 .hero-content h2 {
-  font-size: 24px;
+  font-size: 32px;
   margin-bottom: 20px;
 }
 
@@ -94,9 +99,26 @@ main {
   font-size: 18px;
 }
 
+/* About section styles */
+.about {
+  text-align: center;
+  padding: 40px 0;
+}
+
+.about h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.about p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
 /* CTA section styles */
 .cta {
   text-align: center;
+  padding: 40px 0;
 }
 
 .cta h2 {
